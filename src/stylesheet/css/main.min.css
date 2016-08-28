@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body .main {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  font-size: 30px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  border: 2px solid black;
+}
+
+.wrapper {
+  background-color: azure;
+  color: olive;
+}
+
+/*# sourceMappingURL=main.min.css.map */

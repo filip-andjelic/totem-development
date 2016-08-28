@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>Workflow testing</title>
+	<!-- here we inlcude needed files -->
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="node_modules/jquery/jquery-2.1.4.min.js"></script>
+	<!--<script type="text/javascript" src="app/main.module.js"></script>-->
+	<script type="text/javascript" src="app/dist/app.min.js"></script>
+	<script src="http://localhost:35729/livereload.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/stylesheet/css/main.min.css">
+</head>
+<body ng-app="testApp">
+	<div class="main" ng-controller="testController">
+		<span class="wrapper"> This is main content: {{demo}} </span>
+	</div>
+</body>
+</html>
